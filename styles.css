@@ -96,8 +96,25 @@ h2{
     color: #FAB201;
     font-weight: 900;
     -webkit-text-stroke: 5px white; 
-} 
-
+}
+.tic-tac {
+    font-size: 80px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+.x {
+    color: #fab201;
+    
+}
+  
+.o {
+    color: #fab201;
+    
+}
 @media (max-width:600px){
     h1{
         font-size: 52px;
